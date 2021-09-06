@@ -11,3 +11,13 @@
 # Bonus: Add a validation by checking the type of the user input
 # to ensure it can be casted as an int. Handle any other input that
 # are not numbers to try again.
+
+x = input("How old are you? ")
+a=int(x)
+if a >= 21:
+    print("Welcome!")
+elif a < 21:
+    b = 21 - a
+    c = str(b)
+    print("come back in " + c + " amount of years")
+

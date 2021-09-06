@@ -14,7 +14,7 @@
 # Windows: Ctrl + /
 # Mac: Cmd + /
 # Now let's prevent the code below from running by commenting it out!
-eat_bad_pizza()
+# eat_bad_pizza()
 
 ##################################
 # dont worry about the error     #
@@ -35,7 +35,7 @@ eat_bad_pizza()
 
 # Replace CHANGE_ME to your favorite color and run the code in your terminal.
 
-print("CHANGE_ME")
+print("Blue")
 
 # Currently what we're printing is just a string.
 
@@ -80,7 +80,7 @@ and end of the string"""
     # 2. myFavoriteBand - Camel Case
     # 3. my_favorite_band - Snake Case
 
-name = "Daniel"
+name = "Bill"
 
 # Now, instead of printing string literals, we can print variables which store the string!
 
@@ -90,7 +90,7 @@ name = "Daniel"
 
 # We can combine like-elements, even as variables. (STRING CONCATENATION)
 
-# print("Hello my name is " + name)
+print("Hello my name is " + name)
 
 # INPUT
 
